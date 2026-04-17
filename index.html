@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Hernán Ramírez · Portafolio</title>
+
+    <meta name="description" content="Portafolio de Hernán Ramírez - Full Stack Developer especializado en Laravel, React y desarrollo web a medida. Proyectos y experiencia profesional.">
+    <meta name="keywords" content="Full Stack Developer, Laravel, React, PHP, MySQL, desarrollador web, programador, programador web, portafolio, Hernán Ramírez, Hernán Ramirez Saavedra, Hernán Ramirez dev">
+    <meta name="author" content="Hernán Ramírez">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:title" content="Hernán Ramírez | Full Stack Developer">
+    <meta property="og:description" content="Desarrollo sistemas y sitios web a medida con Laravel y React. Mira mis proyectos y experiencia.">
+    <meta property="og:url" content="https://hernanrmirez-dev.github.io/portafolio">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hernán Ramírez | Full Stack Developer">
+    <meta name="twitter:description" content="Portafolio de proyectos y experiencia como Full Stack Developer">
+
+    <!-- Tailwind CSS + Font Awesome -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- DEVICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="bg-gray-950 text-gray-200 font-sans antialiased">
+
+<nav class="fixed-menu flex gap-6 md:gap-8">
+  <a href="#inicio" class="menu-link">Inicio</a>
+  <a href="#projects" class="menu-link">Proyectos</a>
+  <a href="#experience" class="menu-link">Experiencia</a>
+  <a href="#contact" class="menu-link">Contacto</a>
+</nav>
+
+<section id="inicio" class="min-h-screen flex flex-col items-center justify-center px-4 text-center relative">
+  <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-teal-600 rounded-full blur-[120px]"></div>
+    <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-teal-500 rounded-full blur-[120px]"></div>
+  </div>
+  
+  <img src="images/photo.png"
+       class="w-32 h-32 rounded-full mb-6 border-2 border-teal-500/60 object-cover shadow-lg transition-all hover:border-teal-400 hover:scale-105 duration-300"/>
+       
+  <h1 class="text-5xl md:text-7xl font-bold mb-3 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Hernán Ramírez</h1>
+  <div class="flex items-center gap-2 justify-center mb-4">
+    <span class="h-1.5 w-1.5 rounded-full bg-teal-500"></span>
+    <h2 class="text-xl md:text-2xl text-gray-300 font-light tracking-wide">Full Stack Developer</h2>
+    <span class="h-1.5 w-1.5 rounded-full bg-teal-500"></span>
+  </div>
+
+  <p class="max-w-xl text-gray-400 mb-8 text-lg leading-relaxed">
+    Desarrollo sistemas y sitios web a medida con Laravel y React, enfocados en optimizar procesos de negocio y experiencias digitales.
+  </p>
+
+  <div class="flex gap-5 flex-wrap justify-center">
+    <a href="#projects"
+       class="btn-teal px-7 py-2.5 rounded-lg font-medium shadow-md btn-hover">
+       Ver proyectos
+    </a>
+    <a href="cv.pdf" download
+       class="border border-gray-500 hover:border-teal-400 hover:bg-gray-800 px-7 py-2.5 rounded-lg transition-all btn-hover">
+       Descargar CV
+    </a>
+  </div>
+</section>
+
+<section id="about" class="py-20 px-6 max-w-4xl mx-auto">
+  <div class="text-center">
+    <div class="inline-block mb-3 px-3 py-1 rounded-full bg-gray-800/60 text-xs font-mono tracking-wider text-teal-400">
+      &lt;sobre-mi /&gt;
+    </div>
+    <h2 class="text-4xl font-bold mb-6">Sobre mí</h2>
+    <p class="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto">
+     Soy estudiante de Ingeniería de Software con experiencia en el desarrollo de sistemas y aplicaciones web a medida. Me especializo en construir soluciones enfocadas en mejorar procesos y la presencia digital de negocios.
+    </p>
+    <p class="text-gray-300 pt-4 text-lg leading-relaxed max-w-2xl mx-auto">
+            Me considero una persona proactiva, responsable y en constante aprendizaje, con interés en seguir creciendo profesionalmente en el área de desarrollo de software y aportar valor en proyectos tecnológicos.
+    </p>
+  </div>
+</section>
+
+<section id="skills" class="py-20 px-6 bg-gray-900/60 border-y border-gray-800">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-12">
+      <div class="inline-block mb-2 px-3 py-1 rounded-full bg-gray-800/50 text-xs font-mono tracking-wider text-teal-400">
+        &lt;tecnologías /&gt;
+      </div>
+      <h2 class="text-3xl font-bold mt-2">Stack técnológico</h2>
+      <p class="text-gray-400 mt-2">Lneguajes y herramientas que utilizo para crear soluciones digitales</p>
+    </div>
+    
+    <div class="skills-wrapper">
+      <div class="skill-card skill-item">
+        <i class="devicon-react-original colored text-4xl"></i>
+        <span>React</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-javascript-plain colored text-4xl"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-tailwindcss-original colored text-4xl"></i>
+        <span>Tailwind</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-html5-plain colored text-4xl"></i>
+        <span>HTML5</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-css3-plain colored text-4xl"></i>
+        <span>CSS3</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-php-plain colored text-4xl"></i>
+        <span>PHP</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-laravel-original colored text-4xl"></i>
+        <span>Laravel</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-mysql-plain colored text-4xl"></i>
+        <span>MySQL</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-vscode-plain colored text-4xl"></i>
+        <span>VS Code</span>
+      </div>
+      <div class="skill-card skill-item">
+        <i class="devicon-figma-plain colored text-4xl"></i>
+        <span>Figma</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-20 px-6 max-w-7xl mx-auto">
+  <div class="text-center mb-12">
+    <div class="inline-block mb-2 px-3 py-1 rounded-full bg-gray-800/50 text-xs font-mono tracking-wider text-teal-400">
+      &lt;portafolio /&gt;
+    </div>
+    <h2 class="text-4xl font-bold mt-2">Proyectos destacados</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto mt-2 text-sm">Todos los proyectos se encuentran en línea y operativos</p>
+  </div>
+
+  <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    
+    <!-- Proyecto 1 -->
+    <div class="bg-gray-900/80 rounded-2xl overflow-hidden border border-gray-800 transition-all card-hover group project-card flex flex-col">
+      <div class="relative overflow-hidden">
+        <img src="https://enfoqueweb.pe//images/proyects/grupo_cadel.jpg" 
+             class="w-full h-full object-cover project-img transition duration-300 group-hover:scale-105" 
+             alt="sistema ventas">
+      </div>
+      <div class="p-5 flex flex-col flex-1">
+        <div class="flex justify-between items-start">
+          <h3 class="text-xl font-semibold tracking-tight">Sistema de Créditos y Cobranzas</h3>
+          <a href="#!" class="bg-gray-800 hover:bg-teal-600 p-2 rounded-lg transition-all project-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3h7v7m0-7L10 14"/>
+            </svg>
+          </a>
+        </div>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">
+            Desarrollo de módulos: clientes, métodos de pago, garantías, incidencias, préstamos, pagos, cobranzas, capital, cierres y reportes.        
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Tailwind CSS</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Laravel</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">JavaScript</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="bg-gray-900/80 rounded-2xl overflow-hidden border border-gray-800 transition-all card-hover group project-card flex flex-col">
+      <div class="relative overflow-hidden">
+        <img src="https://enfoqueweb.pe//images/proyects/capacitacion_juridica.jpg" 
+             class="w-full h-full object-cover project-img transition duration-300 group-hover:scale-105" 
+             alt="dashboard">
+      </div>
+      <div class="p-5 flex flex-col flex-1">
+        <div class="flex justify-between items-start">
+          <h3 class="text-xl font-semibold tracking-tight">Plataforma de Cursos Online
+</h3>
+          <a href="https://capacitacionjuridicaperu.com" target="_blank" class="bg-gray-800 hover:bg-teal-600 p-2 rounded-lg transition-all project-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3h7v7m0-7L10 14"/>
+            </svg>
+          </a>
+        </div>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">
+        Desarrollo de panel de alumnos y administrador, gestión de cursos, modalidades, ponentes, certificados, periodos de acceso y reportes.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Tailwind CSS</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Laravel</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">JavaScript</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="bg-gray-900/80 rounded-2xl overflow-hidden border border-gray-800 transition-all card-hover group project-card flex flex-col">
+      <div class="relative overflow-hidden">
+        <img src="https://enfoqueweb.pe/images/proyects/ovet_del_peru.jpg" 
+             class="w-full h-full object-cover project-img transition duration-300 group-hover:scale-105" 
+             alt="gestor tareas">
+      </div>
+      <div class="p-5 flex flex-col flex-1">
+        <div class="flex justify-between items-start">
+          <h3 class="text-xl font-semibold tracking-tight">Sitio Web - Catálogo de Productos</h3>
+          <a href="https://ovetdelperu.com" target="_blank" class="bg-gray-800 hover:bg-teal-600 p-2 rounded-lg transition-all project-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3h7v7m0-7L10 14"/>
+            </svg>
+          </a>
+        </div>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">
+          Diseño y desarrollo del sitio web, incluye gestión de productos, líneas, categorías, especies, edición de todo el sitio web.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">HTML + CSS</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">JavaScript</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Laravel</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 4 -->
+    <div class="bg-gray-900/80 rounded-2xl overflow-hidden border border-gray-800 transition-all card-hover group project-card flex flex-col">
+      <div class="relative overflow-hidden">
+        <img src="https://enfoqueweb.pe/images/proyects/josdri_tech.jpg" 
+             class="w-full h-full object-cover project-img transition duration-300 group-hover:scale-105" 
+             alt="ecommerce">
+      </div>
+      <div class="p-5 flex flex-col flex-1">
+        <div class="flex justify-between items-start">
+          <h3 class="text-xl font-semibold tracking-tight">Sitio Web - Catálogo de Productos</h3>
+          <a href="https://josdritech.com" target="_blank" class="bg-gray-800 hover:bg-teal-600 p-2 rounded-lg transition-all project-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3h7v7m0-7L10 14"/>
+            </svg>
+          </a>
+        </div>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">
+          Diseño y desarrollo del sitio web, incluye panel de administración para gestión de productos, categorías, marcas, edición de todo el sitio web.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">HTML + CSS</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">JavaScript</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Laravel</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 5 -->
+    <div class="bg-gray-900/80 rounded-2xl overflow-hidden border border-gray-800 transition-all card-hover group project-card flex flex-col">
+      <div class="relative overflow-hidden">
+        <img src="https://enfoqueweb.pe/images/proyects/itcenter.jpg" 
+             class="w-full h-full object-cover project-img transition duration-300 group-hover:scale-105" 
+             alt="landing">
+      </div>
+      <div class="p-5 flex flex-col flex-1">
+        <div class="flex justify-between items-start">
+          <h3 class="text-xl font-semibold tracking-tight">Plataforma de Cursos Online</h3>
+          <a href="https://itcenterlearn.com/" target="_blank" class="bg-gray-800 hover:bg-teal-600 p-2 rounded-lg transition-all project-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3h7v7m0-7L10 14"/>
+            </svg>
+          </a>
+        </div>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">
+           Desarrollo de panel de alumnos y administrador, gestión de cursos, materiales, ponente por curso, y reportes básicos.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">HTML + CSS</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">JavaScript</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">PHP</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 6 -->
+    <div class="bg-gray-900/80 rounded-2xl overflow-hidden border border-gray-800 transition-all card-hover group project-card flex flex-col">
+      <div class="relative overflow-hidden">
+        <img src="https://enfoqueweb.pe/images/proyects/irk_arquitectos.jpg" 
+             class="w-full h-full object-cover project-img transition duration-300 group-hover:scale-105" 
+             alt="crm">
+      </div>
+      <div class="p-5 flex flex-col flex-1">
+        <div class="flex justify-between items-start">
+          <h3 class="text-xl font-semibold tracking-tight">Sitio Web Informativo</h3>
+          <a href="#!" class="bg-gray-800 hover:bg-teal-600 p-2 rounded-lg transition-all project-link">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3h7v7m0-7L10 14"/>
+            </svg>
+          </a>
+        </div>
+        <p class="text-gray-400 text-sm mt-2 leading-relaxed">
+           Diseño y desarrollo de sitio web SPA, incluye panel de administración para edición de toda la información del sitio web.
+        </p>
+        <div class="flex flex-wrap gap-2 mt-4">
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">React</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Tailwind CSS</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">Laravel</span>
+          <span class="text-[11px] bg-gray-800 px-2 py-1 rounded-full text-teal-300">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="experience" class="py-20 px-6 bg-gray-900/40 border-t border-b border-gray-800">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-12">
+      <div class="inline-block mb-2 px-3 py-1 rounded-full bg-gray-800/50 text-xs font-mono tracking-wider text-teal-400">
+        &lt;trayectoria /&gt;
+      </div>
+      <h2 class="text-4xl font-bold mt-2">Experiencia profesional</h2>
+    </div>
+
+    <div class="bg-gray-800/30 rounded-2xl p-6 md:p-8 backdrop-blur-sm">
+
+      <div class="exp-row">
+        <div class="exp-content">
+          <h3 class="text-xl font-bold tracking-tight">Full Stack Developer</h3>
+          <p class="text-gray-300 text-md mt-1">Agencia Enfoque Web</p>
+          <span class="text-sm text-gray-400 inline-block mt-1">Desarrollo de sistemas y sitios web a medida con Laravel, Tailwind CSS, React y MySQL. Planificación y coordinación, desarrollo, implementación y soporte.</span>
+        </div>
+        <div class="exp-year">
+          <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm font-mono">sept. 2024 - Actualidad</span>
+        </div>
+      </div>
+
+      <div class="exp-row">
+        <div class="exp-content">
+          <h3 class="text-xl font-bold tracking-tight">Practicante de ingeniería de software</h3>
+          <p class="text-gray-300 text-md mt-1">IMRA CORE BUSINESS · Contrato de prácticas</p>
+          <span class="text-sm text-gray-400 inline-block mt-1">Desarrollo web con HTML5, CSS3, Bootstrap, React, PHP, Laravel y MySQL. Apoyo en implementación de ISO 27001:2022 y diseño en WordPress.</span>
+        </div>
+        <div class="exp-year">
+          <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm font-mono">ene. 2024 - jun. 2024</span>
+        </div>
+      </div>
+
+      <div class="exp-row">
+        <div class="exp-content">
+          <h3 class="text-xl font-bold tracking-tight">Profesor de Desarrollo web</h3>
+          <p class="text-gray-300 text-md mt-1">More Academy · Temporal</p>
+          <span class="text-sm text-gray-400 inline-block mt-1">Enseñanza de HTML5, CSS3 y bases de JavaScript en modalidad remota, guiando a alumnos desde cero hasta crear sitios responsivos.</span>
+        </div>
+        <div class="exp-year">
+          <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm font-mono">ene. 2024 - mar. 2024</span>
+        </div>
+      </div>
+
+      <div class="exp-row">
+        <div class="exp-content">
+          <h3 class="text-xl font-bold tracking-tight">Desarrollador web</h3>
+          <p class="text-gray-300 text-md mt-1">ARSI TI · Contrato temporal</p>
+          <span class="text-sm text-gray-400 inline-block mt-1">Diseño y desarrollo de páginas web con HTML5, CSS3, Bootstrap, JavaScript, jQuery, PHP y MySQL.</span>
+        </div>
+        <div class="exp-year">
+          <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm font-mono">oct. 2020 - mar. 2021</span>
+        </div>
+      </div>
+
+      <div class="exp-row">
+        <div class="exp-content">
+          <h3 class="text-xl font-bold tracking-tight">Diseñador y Desarrollador web</h3>
+          <p class="text-gray-300 text-md mt-1">PDA PERU · Contrato temporal</p>
+          <span class="text-sm text-gray-400 inline-block mt-1">Diseño de catálogos y desarrollo de sitio web a medida. Uso de Adobe Illustrator, Photoshop, HTML, CSS, JS y PHP.</span>
+        </div>
+        <div class="exp-year">
+          <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm font-mono">oct. 2020 - mar. 2021</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="py-20 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <div class="inline-block mb-3 px-3 py-1 rounded-full bg-gray-800/60 text-xs font-mono tracking-wider text-teal-400">
+      &lt;contacto /&gt;
+    </div>
+    <h2 class="text-4xl font-bold mb-4">Contacta conmigo</h2>
+    <div class="flex flex-wrap justify-center gap-5 mt-10">
+      <a href="mailto:ramirezsaavedrahernan@gmail.com" class="social-icon flex items-center gap-3 bg-gray-800/70 hover:bg-gray-800 border border-gray-700 rounded-lg px-5 py-2.5 transition-all">
+        <i class="fas fa-envelope text-teal-400 text-lg"></i>
+        <span class="text-sm font-medium">ramirezsaavedrahernan@gmail.com</span>
+      </a>
+      
+      <a href="www.linkedin.com/in/hernanramirez-dev" target="_blank" class="social-icon flex items-center gap-3 bg-gray-800/70 hover:bg-gray-800 border border-gray-700 rounded-lg px-5 py-2.5 transition-all">
+        <i class="fab fa-linkedin-in text-teal-400 text-lg"></i>
+        <span class="text-sm font-medium">linkedin.com/in/hernanramirez-DEV</span>
+      </a>
+      
+      <a href="https://wa.me/51907349669" target="_blank" class="social-icon flex items-center gap-3 bg-gray-800/70 hover:bg-gray-800 border border-gray-700 rounded-lg px-5 py-2.5 transition-all">
+        <i class="fab fa-whatsapp text-teal-400 text-lg"></i>
+        <span class="text-sm font-medium">+51 907 349 669</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="py-8 border-t border-gray-800 text-center text-gray-500 text-sm">
+  <p>© 2026 Hernán Ramírez</p>
+</footer>
+
+
+<button id="btnVolverArriba" class="btn-top" aria-label="Volver arriba">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+  </svg>
+</button>
+
+<script src="assets/js/scrolltop.js"></script>
+</body>
+</html>
